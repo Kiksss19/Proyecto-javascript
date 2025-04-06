@@ -10,14 +10,17 @@ edad >= 18 && traeine
 
 if(edad >= 18 && traeine){
     alert("Puedes entrar al cine");
+
     if( deseo == "Spiderman"){
         alert("Veras tu pelicula deseada");
-    }
-    else{
+    }else{
         alert("Veras otra pelicula");
-    }
-else if(edad >= 18 && !traeine){
+    } 
+    
+}else if(edad >= 18 && !traeine){
     alert("Muestrame una foto de tu Ine para entrar")
+    
 } else{
     alert("No puedes entrar al cine");
-}
+    }
+
